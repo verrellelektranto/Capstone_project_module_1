@@ -1,11 +1,11 @@
 # CAPSTONE PROJECT MODULE 1
 JCDS 2702 - VERRELL ELEKTRANTO
 # EMPLOYEE DATA MANAGEMENT APPS (EMPACT) EMPLOYEE IMPACT
-employee_list = []
+    employee_list = []
 
 # CREATE FEATURE
 
-def add_employee():
+    def add_employee():
     """"Add an employee"""
 
     # Employee ID (alphanumeric only)
@@ -46,7 +46,7 @@ def add_employee():
 
 # READ FEATURE
 
-def show_employee():
+    def show_employee():
     """employee list"""
     
     # DEDUCTION SYSTEM
@@ -72,7 +72,7 @@ def show_employee():
 
 # UPDATE FEATURE
 
-def update_employee():
+    def update_employee():
     """Update employee data based on ID"""
 
     employee_id = input("Input the employee ID that requires an update: ")
@@ -87,7 +87,7 @@ def update_employee():
 
 # DELETE FEATURE
 
-def delete_employee():
+    def delete_employee():
     """Delete employee data based on ID"""
 
     employee_id = input("Please input the employee ID to be deleted: ")
