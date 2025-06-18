@@ -100,7 +100,7 @@ JCDS 2702 - VERRELL ELEKTRANTO
 
 # MAIN PAGE
 
-def main():
+    def main():
     """Main page of the application"""
     while True:
         print("=== EMPACT(Employee impact) employee data management Apps ===")
@@ -124,4 +124,4 @@ def main():
             break
         else:
             print("Invalid input, please try again.")
-main()
+    main()
